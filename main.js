@@ -53,8 +53,8 @@ main.append (fmH1)
 main.append(JSON.stringify(balance))
 
 let tag = users
+.filter (users => users.tags)
 .map (users => users.age)
-//.filter (users => users.includes[tags] === 'fugiat')
 let tagH1 = document.createElement ('h1')
 tagH1.append ('Kata7')
 main.append (tagH1)
